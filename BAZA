@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Афиша мероприятий</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Афиша мероприятий</h1>
+        <nav>
+            <a href="#concerts">Концерты</a>
+            <a href="#exhibitions">Выставки</a>
+            <a href="#theater">Театр</a>
+        </nav>
+    </header>
+
+    <section id="events">
+        <h2>Популярные мероприятия</h2>
+        <div class="event-list">
+            <!-- Мероприятия будут загружаться здесь -->
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
